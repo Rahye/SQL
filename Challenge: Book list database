@@ -1,0 +1,15 @@
+Challenge: Book list database
+
+/** Book list:
+Milk and Honey (2)
+Pillow Thoughts (5)
+Pachinko (4)
+**/
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT INTO books VALUES (1, "Milk and Honey", 2);
+INSERT INTO books VALUES (2, "Pillow Thoughts", 5);
+INSERT INTO books VALUES (3, "Pachinkop", 4);
+
+SELECT * FROM books;
